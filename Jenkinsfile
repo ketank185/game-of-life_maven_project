@@ -4,10 +4,10 @@ pipeline {
 			label "built-in"
 			
 			}
+		}
 		tools {
 		jdk "java-8"
 		}
-	}
 	stages {
 		stage ("clean workspace"){
 			steps {
